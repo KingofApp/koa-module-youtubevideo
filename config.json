@@ -13,10 +13,10 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/youtubevideo/index.html",
-  "files": ["modules/youtubevideo/controller.js", "modules/youtubevideo/directive.js"],
+  "view": "http://resources.kingofapp.com/modules/youtubevideo/index.html",
+  "files": ["http://resources.kingofapp.com/modules/youtubevideo/controller.js", "http://resources.kingofapp.com/modules/youtubevideo/directive.js"],
   "scope": {
-    "videoid": "oHg5SJYRHA0"
+    "videoid": ""
   },
   "config": [{
     "templateOptions": {
