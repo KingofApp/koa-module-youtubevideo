@@ -30,9 +30,8 @@
     "windows"
   ],
   "view": "modules/youtubevideo/index.html",
-  "controller": "modules/youtubevideo/controller.js",
   "files": [
-    "modules/youtubevideo/directive.js"
+    "modules/youtubevideo/controller.js", "modules/youtubevideo/directive.js"
   ],
   "scope": {
     "videoid": ""
