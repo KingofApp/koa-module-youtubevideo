@@ -34,7 +34,8 @@
     "modules/youtubevideo/controller.js", "modules/youtubevideo/directive.js"
   ],
   "scope": {
-    "videoid": ""
+    "videoid": "",
+    "debug":"false"
   },
   "config": [{
     "templateOptions": {
