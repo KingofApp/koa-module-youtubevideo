@@ -52,13 +52,12 @@
     "dragDrop": true
   },
   "images": {
-    "list": "modules/youtubevideo/images/list.png",
+    "list": "modules/youtubevideo/images/youtube-video_list.png",
     "screenshots": [
-      "modules/youtubevideo/images/screenshot01.png",
-      "modules/youtubevideo/images/screenshot02.png"
+      "modules/youtubevideo/images/youtuve-video_screenshots.png"
     ],
-    "popover": "modules/youtubevideo/images/popover.png",
-    "banner": "modules/youtubevideo/images/banner.png",
-    "logo": "modules/youtubevideo/images/logo.png"
+    "popover": "modules/youtubevideo/images/youtube-video_popover.png",
+    "banner": "modules/youtubevideo/images/youtube-video_popover.png",
+    "logo": "modules/youtubevideo/images/youtube-video_icon.png"
   }
 }
