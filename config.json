@@ -16,7 +16,7 @@
 
   "icon": "youtube",
   "type": "A",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "King of App",
   "category": [
     "media"
@@ -34,7 +34,8 @@
     "modules/youtubevideo/controller.js", "modules/youtubevideo/directive.js"
   ],
   "scope": {
-    "videoid": ""
+    "videoid": "bwb9PO2y8vA",
+    "debug":"false"
   },
   "config": [{
     "templateOptions": {
@@ -51,13 +52,12 @@
     "dragDrop": true
   },
   "images": {
-    "list": "modules/youtubevideo/images/list.png",
+    "list": "modules/youtubevideo/images/youtube-video_list.png",
     "screenshots": [
-      "modules/youtubevideo/images/screenshot01.png",
-      "modules/youtubevideo/images/screenshot02.png"
+      "modules/youtubevideo/images/youtuve-video_screenshots.png"
     ],
-    "popover": "modules/youtubevideo/images/popover.png",
-    "banner": "modules/youtubevideo/images/banner.png",
-    "logo": "modules/youtubevideo/images/logo.png"
+    "popover": "modules/youtubevideo/images/youtube-video_popover.png",
+    "banner": "modules/youtubevideo/images/youtube-video_popover.png",
+    "logo": "modules/youtubevideo/images/youtube-video_icon.png"
   }
 }
