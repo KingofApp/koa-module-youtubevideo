@@ -2,8 +2,8 @@
   "name": "Youtube Video",
   "identifier": "youtubevideo",
   "description": {
-    "es-ES": "Carga un vídeo concreto activando esta opción y entrando en el apartado de configuración la url correspondiente del video Youtube.P.e. http://youtu.be/Mivideo esta url se consigue desde la opción “compartir” de Youtube.",
-    "en-US": "Upload a specific video by activating this option and entering in the configuration section the corresponding url of the video Youtube. e.g.. Http://youtube/MyVideo. this url is obtained from the "share" option of Youtube."
+    "es-ES": "Carga un vídeo concreto activando esta opción y entrando en el apartado de configuración la url correspondiente del video Youtube.P.e. http://youtu.be/Mivideo esta url se consigue desde la opción 'compartir' de Youtube.",
+    "en-US": "Upload a specific video by activating this option and entering in the configuration section the corresponding url of the video Youtube. e.g.. Http://youtube/MyVideo. this url is obtained from the 'share' option of Youtube."
   },
   "documentation": {
     "es-ES": "modules/youtubevideo/documentation/es_ES.md",
