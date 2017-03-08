@@ -2,16 +2,16 @@
   "name": "Youtube Video",
   "identifier": "youtubevideo",
   "description": {
-    "es-ES": "Si lo único que quieres cargar es un vídeo concreto, activa esta opción y entra en el apartado de configuración la url de Youtube correspondiente al video que quieras cargar. P.e. http://youtu.be/Mivideo esta url se consigue desde la opción “compartir” de Youtube.",
-    "en-US": "Si lo único que quieres cargar es un vídeo concreto, activa esta opción y entra en el apartado de configuración la url de Youtube correspondiente al video que quieras cargar. P.e. http://youtu.be/Mivideo esta url se consigue desde la opción “compartir” de Youtube."
+    "es-ES": "Carga un vídeo concreto activando esta opción y entrando en el apartado de configuración la url correspondiente del video Youtube.P.e. http://youtu.be/Mivideo esta url se consigue desde la opción “compartir” de Youtube.",
+    "en-US": "Upload a specific video by activating this option and entering in the configuration section the corresponding url of the video Youtube. e.g.. Http://youtube/MyVideo. this url is obtained from the "share" option of Youtube."
   },
   "documentation": {
     "es-ES": "modules/youtubevideo/documentation/es_ES.md",
     "en-US": "modules/youtubevideo/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Carga un video concreto de youtube para visualizarlo en tu App",
-    "en-US": "Carga un video concreto de youtube para visualizarlo en tu App"
+    "es-ES": "Carga un video concreto de youtube para visualizarlo en tu App.",
+    "en-US": "Display a video from youtube on your application."
   },
 
   "icon": "youtube",
