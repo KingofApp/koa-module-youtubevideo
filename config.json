@@ -1,63 +1,65 @@
 {
-  "name": "Youtube Video",
-  "identifier": "youtubevideo",
-  "description": {
-    "es-ES": "Carga un vídeo concreto activando esta opción y entrando en el apartado de configuración la url correspondiente del video Youtube.P.e. http://youtu.be/Mivideo esta url se consigue desde la opción 'compartir' de Youtube.",
-    "en-US": "Upload a specific video by activating this option and entering in the configuration section the corresponding url of the video Youtube. e.g.. Http://youtube/MyVideo. this url is obtained from the 'share' option of Youtube."
-  },
-  "documentation": {
-    "es-ES": "modules/youtubevideo/documentation/es_ES.md",
-    "en-US": "modules/youtubevideo/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Carga un video concreto de youtube para visualizarlo en tu App.",
-    "en-US": "Display a video from youtube on your application."
-  },
-
-  "icon": "youtube",
-  "type": "A",
-  "version": "1.0.7",
-  "author": "King of App",
-  "category": [
-    "media"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/youtubevideo/index.html",
-  "files": [
-    "modules/youtubevideo/controller.js", "modules/youtubevideo/directive.js"
-  ],
-  "scope": {
-    "videoid": "bwb9PO2y8vA",
-    "debug":"false"
-  },
-  "config": [{
-    "templateOptions": {
-      "label": "id",
-      "required": true,
-      "description": "id del video"
+    "name": "Youtube Video",
+    "identifier": "youtubevideo",
+    "description": {
+        "es-ES": "Carga un vídeo concreto activando esta opción y entrando en el apartado de configuración la url correspondiente del video Youtube.P.e. http://youtu.be/Mivideo esta url se consigue desde la opción 'compartir' de Youtube.",
+        "en-US": "Upload a specific video by activating this option and entering in the configuration section the corresponding url of the video Youtube. e.g.. Http://youtube/MyVideo. this url is obtained from the 'share' option of Youtube."
     },
-    "type": "input",
-    "key": "videoid"
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/youtubevideo/images/youtube-video_list.png",
-    "screenshots": [
-      "modules/youtubevideo/images/youtuve-video_screenshots.png"
+    "documentation": {
+        "es-ES": "modules/youtubevideo/documentation/es_ES.md",
+        "en-US": "modules/youtubevideo/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Carga un video concreto de youtube para visualizarlo en tu App.",
+        "en-US": "Display a video from youtube on your application."
+    },
+    "icon": "youtube",
+    "type": "A",
+    "version": "1.0.8",
+    "author": "King of App",
+    "category": [
+        "media"
     ],
-    "popover": "modules/youtubevideo/images/youtube-video_popover.png",
-    "banner": "modules/youtubevideo/images/youtube-video_popover.png",
-    "logo": "modules/youtubevideo/images/youtube-video_icon.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/youtubevideo/index.html",
+    "files": [
+        "modules/youtubevideo/controller.js",
+        "modules/youtubevideo/directive.js"
+    ],
+    "scope": {
+        "videoid": "bwb9PO2y8vA",
+        "debug": "false"
+    },
+    "config": [
+        {
+            "templateOptions": {
+                "label": "id",
+                "required": true,
+                "description": "id del video"
+            },
+            "type": "input",
+            "key": "videoid"
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/youtubevideo/images/youtube-video_list.png",
+        "screenshots": [
+            "modules/youtubevideo/images/youtuve-video_screenshots.png"
+        ],
+        "popover": "modules/youtubevideo/images/youtube-video_popover.png",
+        "banner": "modules/youtubevideo/images/youtube-video_popover.png",
+        "logo": "modules/youtubevideo/images/youtube-video_icon.png"
+    }
 }
